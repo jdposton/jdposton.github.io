@@ -1,6 +1,6 @@
 /* GLOBAL STYLES */
 html {
-  box-shadow: 0 0 0 30px #000 inset;
+  box-shadow: 0 0 0 30px #331e54 inset;
   padding: 0 30px;
 }
 body {
@@ -56,29 +56,29 @@ p {
 
 /* HEADER STYLES */
 .header {
-  background-color: #000;
+  background-color: #331e54;
   color: #fff;
   position: fixed;
   width: 100%;
   z-index: 20;
 }
 .header-logo {
-  background-color: #000;
+  background-color: #331e54;
   box-sizing: border-box;
   display: block;
   height: 10vh;
   left: -30px;
-  padding-top: 10px;
+  padding-top: 5px;
   position: relative;
   text-align: center;
   width: 10vh;
 }
 .header-logo:hover,
 .header-logo:active {
-  background-color: #ed6e2f;
+  background-color: #fff;
 }
 .header-logo img {
-  width: 4.3vh;
+  width: 9vh;
 }
 .header-nav {
   float: right;
@@ -108,7 +108,7 @@ p {
 
 /* FOOTER STYLES */
 .footer {
-  background-color: #000;
+  background-color: #331e54;
   padding: 10vh 0 15vh;
   text-align: center;
 }
@@ -167,6 +167,7 @@ p {
 /* HERO STYLES */
 .full-hero {
   background-color: #c7dbfc;
+  background-color: #331e54;
   background-size: cover;
   background-repeat: no-repeat;
   box-sizing: border-box;
@@ -185,7 +186,7 @@ p {
   width: 0;
 }
 .hero-home {
-  background-image: url(/images/shark.jpg);
+  background-image: url(/images/Logos/Independence_Knights_purple_back.jpg);
   background-position: center top;
 }
 .hero-content {
@@ -197,12 +198,15 @@ p {
   transform: translate(0, -50%);
 }
 .hero-content h1 {
-  color: rgba(255, 255, 255, 0.8);
+  font-family: "Courier New", serif;
+  font-weight: bold;
+  color: #331e54;
+  text-shadow: 1px 1px 2px white, 0 0 1em black, 0 0 0.2em black;
   font-size: 7vw;
   margin-bottom: 0.25em;
 }
 .hero-content .social-link {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 1);
   color: #557c83;
 }
 .hero-content .social-link:hover {
@@ -308,7 +312,7 @@ p {
 .bio-box h3 {
   color: #fff;
   font-size: 1.5em;
-  margin: -40px 0 1em;
+  margin: -180px 0 6em;
   text-align: center;
   text-transform: uppercase;
 }
